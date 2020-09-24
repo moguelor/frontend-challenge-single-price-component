@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+/* https://www.w3schools.com/css/css3_box-sizing.asp#:~:text=With%20the%20CSS%20box%2Dsizing,Hooray! */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  padding: 20px;
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+section {
+  padding: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0, 0.05);
+  overflow: hidden; /* For hide corners with colors*/
+}
+
+.join p {
+  line-height: 30px;
+}
+
+.join .title {
+  color: hsl(179, 62%, 43%);
+  font-size: 34px;
+}
+
+.join .subtitle {
+  color: hsl(71, 73%, 54%);
+}
+
+.join .info {
+  color: hsl(218, 22%, 67%);
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+  color: #fff;
+}
+
+.monthly {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.monthly .amount {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-amount .text {
+  margin: 15px;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+.row > section {
+  flex: 1;
+}
+
+.why-us {
+  background-color: hsl(179, 47%, 52%);
+}
+
+.btn-sign-up {
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  height: 55px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 5px rgb(0, 0, 0, 0.1);
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
