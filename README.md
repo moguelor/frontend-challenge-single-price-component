@@ -1,4 +1,4 @@
-# frontend-challenge-one [Demo Live](https://moguelor.github.io/frontend-challenge-one/)
+# Single price grid component [Demo Live](https://moguelor.github.io/frontend-challenge-one/)
 
 Practice project for html and css, challenge one for Frontend Mentor.
 
